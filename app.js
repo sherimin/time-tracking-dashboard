@@ -68,7 +68,7 @@ fetch("data.json")
       const timeItemHeader = document.createElement("div");
       timeItemHeader.classList.add("time-item-header");
       timeItemHeader.innerHTML = `
-        <img src="images/icon-${timeCount.title}.svg" alt="${timeCount.title} icon" />
+        <img src="./images/icon-${timeCount.title}.svg" alt="${timeCount.title} icon" />
       `;
 
       const timeItemBody = document.createElement("div");
