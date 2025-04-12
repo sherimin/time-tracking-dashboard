@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Sheri's Solution | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="profile-menu-container">
+        <div class="profile-container">
+          <div class="profile-pic-container">
+            <img
+              src="./images/image-jeremy.png"
+              class="profile-pic"
+              alt="profile-pic"
+            />
+          </div>
+
+          <div class="profile-text-container">
+            <div class="profile-title">Report for</div>
+            <h1 class="profile-username">Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <div class="menu-container">
+          <button id="btn-daily" class="period-btn">Daily</button>
+          <button id="btn-weekly" class="period-btn">Weekly</button>
+          <button id="btn-monthly" class="period-btn">Monthly</button>
+        </div>
+      </div>
+
+      <div class="detailed-time-container" id="detailed-time-container"></div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
